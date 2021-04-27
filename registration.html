@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Регистарция</title>
+<link rel="icon" href="Icons/icon.png">
+<link href="Registration.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="header">
+		<div id="logo">
+			<h1>Bulgarian Mountains</h1>
+		</div>
+			<ul id="navbar">
+				<li><a href="index.html">Начало</a></li>
+				<li><a href="#">Планини</a>
+					<ul>
+					  <li><a href="Rila.html">Рила</a></li>
+					  <li><a href="Stara_planina.html">Стара планина</a></li>
+					  <li><a href="Pirin.html">Пирин</a></li>
+					  <li><a href="Rodopi.html">Родопи</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Полезно</a>
+					<ul>
+					  <li><a href="https://huts.bg/" target="_blank">Камери</a></li>
+					  <li><a href="http://mountain-huts.com/" target="_blank">Хижи</a></li>
+					  <li><a href="http://www.bgmountains.org/bg/" target="_blank">Карти</a></li>
+					  <li><a href="Safety.html">Безопасност</a></li>
+					  <li><a href="https://www.sinoptik.bg/smolyan-bulgaria-100727030?location" target="_blank">Времето</a></li>
+					  <li><a href="Tracks.html">Маршрути</a></li>
+					</ul>
+				</li>
+			</ul>
+	</div>
+	<form>
+		<h2>Форма за регистрация</h2>
+		<input class="fname" type="text" name="fname" placeholder="Име" required>
+		<input class="lname" type="text" name="lname" placeholder="Фамилия" required>
+		<input class="mail" type="email" name="mail" placeholder="Email" required>
+		<input class="pass" type="password" name="pass" placeholder="Парола" required>
+		<input class="address" type="text" name="address" placeholder="Адрес (пожелание)">
+		<input class="age" type="number" name="age" placeholder="Възраст" min="16">
+		<label>Изберете пол</label>
+		<input type="radio" name="sex" value="man">
+		<input type="radio" name="sex" value="woman">
+		<span>Мъж</span>
+		<span>Жена</span>
+		<input type="submit" name="signup" value="Регистрация">
+	</form>
+</body>
+</html>

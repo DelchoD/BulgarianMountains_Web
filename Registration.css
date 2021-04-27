@@ -1,0 +1,151 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("reg_6.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #545454;
+}
+#header {
+	height: 150px;
+	background:rgba(160,232,175,0);
+	z-index: 39;
+	position:sticky;
+}
+#logo
+{
+	float: left;
+	width: 380px;
+	padding: 0px 0px 0px 80px;
+}
+#logo h1
+{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 30px;
+	color:antiquewhite;
+	margin-top: 55px;
+	text-transform:uppercase;
+	width: 400px;
+}
+#navbar {
+    height: 30px;
+	margin: 55px 0px 0px 10px;
+	width: 450px;
+	float: right;
+	font-size: 20px;
+	font-family:"Trebuchet MS", Verdana;
+}#navbar ul{
+     display: none;
+     background-color:rgba(132,181,159,0.8);
+}
+#navbar li:hover ul { display:block}
+#navbar, #navbar ul{
+	 padding: 0;
+     list-style-type: none;
+}  
+#navbar li {
+     float: left;
+     height: 100%;
+	 border-radius: 20px;
+}
+#navbar li a {
+     display:block;
+     padding: 6px;
+     width: 100px;
+     color:antiquewhite;
+     text-decoration: none;
+     text-align: center;
+}
+#navbar ul li { 
+	float: none;
+	font-size: 15px;
+	border-radius: 20px;
+}
+#navbar li:hover { background-color:rgb(155,197,61); }
+#navbar ul li:hover { background-color:rgb(91,192,235); }
+form{
+	width: 550px;;
+	height: 620px;
+	border-radius: 10px;
+	background-color: rgba(237,234,208,0.5);
+	margin: 20px auto 0px;
+	padding-top: 10px;
+	-webkit-animation: fadein 2s;
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+form h2{
+	margin: 10px auto 10px 140px;
+	font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: #292929;
+}
+input[type="text"],[type="password"],[type="email"],[type="number"],[type="submit"]{
+	display: block;
+	margin:15px auto 15px;
+	border: none;
+	border-radius: 10px;
+	height: 50px;
+	width: 350px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+input[type="radio"]{
+	margin: 10px 110px 10px 120px;
+	display: inline;
+}
+input[type="submit"]:hover{
+	background-color:#FA9A50;
+	color: antiquewhite;
+}
+label{
+	display: block;
+	margin-left: 200px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	color:#292929;
+	font-weight: 600;
+}
+placeholder{
+	margin-left: 0px;
+}
+span{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color:#292929;
+	font-weight: 600;
+	margin: 10px 108px 10px;
+}
+.fname{
+	padding-left: 45px;
+	background: #ddd url("Icons/profile.png") no-repeat 5px;
+	box-shadow: 1px 1px 3px white;
+}
+.lname{
+	padding-left: 45px;
+	background:#ddd url("Icons/profile.png") no-repeat 5px;
+	box-shadow: 1px 1px 3px white;
+}
+.mail{
+	padding-left: 45px;
+	background: #ddd url("Icons/mail.png") no-repeat 5px;
+	box-shadow: 1px 1px 3px white;
+}
+.pass{
+	padding-left: 45px;
+	background:#ddd url("Icons/pass.png") no-repeat 4px;
+	box-shadow: 1px 1px 3px white;
+}
+.address{
+	padding-left: 45px;
+	background:#ddd url("Icons/address.png") no-repeat 9px;
+	box-shadow: 1px 1px 3px white;
+}
+.age{
+	padding-left: 45px;
+	background:#ddd url("Icons/age.png") no-repeat 3px;
+	box-shadow: 1px 1px 3px white;
+}

@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("Photos/start.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+h1{
+	text-align: center;
+	font-family: "Baskerville Old Face";
+	font-size: 70px;
+	color: aliceblue;
+	padding-top: 40px;
+	position:inherit;
+}
+p{
+	text-align: center;
+	font-family: "Baskerville Old Face";
+	font-size: 39px;
+	color: aliceblue;
+	margin: 150px 80px 150px;
+	padding: 30px;
+	border-radius: 10px;
+	background: rgba(114,156,21,0.4);
+}
+button{
+	height: 60px;
+	width: 180px;
+	border-radius: 8px;
+	border: none;
+	background-color: #719A13;
+	margin: 0px auto;
+	display: block;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	font-size: 25px;
+	color: aliceblue;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+	text-decoration-color: aliceblue;
+}
