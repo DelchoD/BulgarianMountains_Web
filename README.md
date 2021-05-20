@@ -1,2 +1,2 @@
-# BulgarianMountains_Web
-My project for website about the beautiful nature of Bulgaria
+# Bulgarian mountains
+Simple website about the beautiful nature of Bulgaria....still in progress
